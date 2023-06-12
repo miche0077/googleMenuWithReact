@@ -1,9 +1,9 @@
 import "./styles/App.css";
 
-import Header from "./components/header";
+import Header from "./components/Header";
 import Search from "./components/search";
 import Buttons from "./components/Buttons";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 function App() {
   

@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Menu do Google - Componentes e Props em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma recriação do menu do Google utilizando componentes e props do React. O objetivo é mostrar como esses conceitos podem ser utilizados no desenvolvimento de interfaces de usuário em React.
 
-## Available Scripts
+## Recursos
 
-In the project directory, you can run:
+- O menu do Google é dividido em diferentes componentes, permitindo um código modular e reutilizável.
+- Props são utilizados para passar dados e funções entre os componentes.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (versão 12 ou superior)
+- NPM (Node Package Manager)
 
-### `npm test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório em sua máquina local:
 
-### `npm run build`
+```bash
+git clone https://github.com/miche0077/googleMenuWithReact.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Acesse o diretório do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cd googleMenuWithReact
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Instale as dependências do projeto:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Após instalar todas as dependências, você pode executar o projeto com o seguinte comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Isso iniciará a aplicação em modo de desenvolvimento. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para ver o menu do Google.
 
-## Learn More
+## Estrutura do Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O projeto segue a seguinte estrutura de diretórios:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+menu-google-react/
+  ├── src/
+  │   ├── components/
+  │   │   ├── Buttons.js
+  │   │   ├── Footer.js
+  │   │   ├── Header.js
+  │   │   ├── Search.js
+  │   ├── styles
+  │   ├── App.js
+  │   ├── index.js
+  ├── README.md
+  ├── package.json
+  ├── package-lock.json
+```
 
-### Code Splitting
+- O diretório `src/components` contém os componentes individuais que compõem o menu do Google.
+- O arquivo `src/App.js` é o componente principal que importa e renderiza os componentes individuais.
+- O arquivo `src/styles` contém os estilos CSS .
+- O arquivo `src/index.js` é o ponto de entrada da aplicação.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Se desejar contribuir para este projeto, siga os seguintes passos:
 
-### Making a Progressive Web App
+1. Crie um fork deste repositório em sua conta do GitHub.
+2. Clone seu fork em sua máquina local:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/miche0077/googleMenuWithReact.git
+```
 
-### Advanced Configuration
+3. Crie um branch para suas alterações:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git checkout -b meu-branch
+```
 
-### Deployment
+4. Faça suas modificações e faça commits:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git commit -m "Descrição das alterações"
+```
 
-### `npm run build` fails to minify
+5. Envie suas alterações para seu fork:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git push origin meu-branch
+```
+
+6. Abra um pull request no repositório original.
+
+## Licença
+
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+---
+
+Obrigado por utilizar este projeto! Se tiver alguma dúvida ou sugestão, não hesite em abrir um issue no re
