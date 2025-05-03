@@ -3,6 +3,7 @@ import "../styles/footer.css";
 
 function Footer() {
   return (
+    <div className="container-footer">
     <footer className="footer">   
     <div className="footer-links">
       <a href="#">Sobre</a>
@@ -16,6 +17,7 @@ function Footer() {
     <a href="#">Configurações</a>
     </div>
     </footer>
+    </div>
   );
 }
 

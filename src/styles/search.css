@@ -1,9 +1,9 @@
 .pesquisa{
   
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
  
 }
 
@@ -42,4 +42,7 @@ input[type="text"] {
    width: 15px;  
    height: 15px;
     
+}
+.logo-google{
+  margin-bottom: 5%;
 }

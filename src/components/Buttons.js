@@ -5,8 +5,10 @@ import '../styles/buttons.css';
 function Buttons({ prop1, prop2}){
     return(
         <React.Fragment>
-            <button type="submit" className="btn-search" >{prop1}</button>
-            <button type="submit" className="btn-search" >{prop2}</button>
+            <div className="btn-container">
+            <button type="submit" className="btn-search">{prop1}</button>
+            <button type="submit" className="btn-search">{prop2}</button>
+            </div>
         </React.Fragment>
          
     )
